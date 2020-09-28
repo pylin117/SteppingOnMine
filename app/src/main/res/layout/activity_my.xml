@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id = "@+id/main_layout"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/fragment1"
+        class="com.nikechi.steppingonmine.List_fragment"
+        android:layout_width="401dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/activity_listview">
+
+    </fragment>
+
+    <!-- FRAGMENT: information_fragment.xml -->
+
+    <FrameLayout
+        android:id="@+id/fragment2"
+        android:layout_width="450dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/display_fragment">
+    </FrameLayout>
+
+</LinearLayout>

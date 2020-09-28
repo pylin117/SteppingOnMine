@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SteppingOnMine</string>
+    <string name="replay_button">重新再玩</string>
+
+</resources>
